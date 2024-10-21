@@ -1,0 +1,24 @@
+.container{
+
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(12,auto);
+    gap: 10px;
+    position: relative;
+}
+
+@media (max-width:400px) {
+
+    .container{
+
+        display: grid;
+        width: 100vw;
+        grid-template-columns: repeat(6,auto);
+        gap: 10px;
+        position: absolute;
+    }
+    
+}
+.column{
+    z-index: 100;
+}

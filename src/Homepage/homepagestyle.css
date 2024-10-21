@@ -1,0 +1,32 @@
+.home-container{
+
+    height: 100%;
+    width: 100vw;
+    overflow-y: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-container{
+
+    display: none;
+
+}
+
+.active{
+    display: block;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    img{
+        width: 50%;
+
+    }
+}
